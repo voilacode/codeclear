@@ -1,0 +1,23 @@
+.navbar .navbar-toggler {
+    color: white!important;
+    }
+
+.nav-link:hover,.btn-hover:hover, .options:hover, form button:hover, .view a:hover{
+    background-color: #18a289!important;
+}
+.not-hover:hover{
+    background-color: #3d80d7!important;
+    opacity: 0.85;
+}
+.navbar-toggler, .navbar-toggler-icon{
+    color: white;
+    border-color: white;
+}
+
+.navbtn1{
+    background-color:rgb(9, 178, 245);
+}
+
+.navbtn2{
+    background-color: rgb(193, 91, 91);
+}
