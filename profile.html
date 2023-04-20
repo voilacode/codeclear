@@ -9,18 +9,107 @@
 
 </head>
 <body>
-    <div class="fs-4 text-center fw-bold bg-secondary text-white " style="font-weight: 100px;"><h1>Profile</h1></div>
-    <div class="container" style="background-color: rgb(211, 162, 56);">
-        <div style="padding-left: 100px; padding-top: 20px; padding-bottom: 20px;">
-        <img src="./images/down.png"  alt=>
-        <div class="row col-12 col-md-8 ms-md-auto justify-content-md-end justify-content-center">
 
-            <div class="col-12 col-md-4">
-              <input class="form-control container-fluid" type="file" id="formFileDisabled" />
+    <!---Header-->
+    <header style="background-color: #01579b;">
+        <div class="container px-lg-5" >
+          <nav class="navbar navbar-expand-lg bg-body-tertiary  ">
+            <div class="container-fluid">
+              <a class="navbar-brand text-decoration-none text-white fw-bold" href="#">CodeCLR</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon navbar-light"></span>
+              </button>            
+  
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                
+                <form class="d-flex mx-auto my-2 navsearch" style="width: 43.5vw;" role="search">
+                  <input class="form-control rounded-0" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn text-white rounded-0 text-danger" type="submit" style="background-color: #3d80d7;">Search</button>
+                </form>
+  
+                <ul class="navbar-nav mb-2 mb-lg-0 d-flex" style="flex-direction: row;">
+                  <li class="nav-item col-6 text-center">
+                    <a class="nav-link btn me-3 text-white px-2 my-2 text-center navbtn" style="background-color:rgb(9, 178, 245);" aria-current="page" href="./login_page.html">Login</a>
+                  </li>
+                  <li class="nav-item col-6">
+                    <a class="nav-link btn text-white px-2 my-2 text-center navbtn" style="background-color: rgb(193, 91, 91);" href="./reset_password.html">Register</a>
+                  </li>
+                </ul>
+                
+              </div>
             </div>
-    </div>
-    </div>
+          </nav>
+        </div>
+      </header>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+      <main style="background-color: rgb(240, 241, 241); padding-top: 10px;">
+        <div class="container px-5">
+            <div style="padding-left: 100px;">
+            <img  class="pt-4"src="./images/logo.jpg" width="300px" height="320px">    </div>
+        <div style="justify-content: flex-start; padding-left: 250px; padding-top: 10px;" >
+            <input class="form-control text-start " type="file" id="formFileDisabled"  style="width: 100px;"/>
+        </div>
+    <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-4  col-md-6">
+        <h1 class="fs-4 fw-bold ">Account Information</h1>
+        <label class="pt-3">First Name:
+          <input type="text">
+        </label>
+        <label class="pt-3">Last name:
+          <input type="text">
+        </label>
+        <label class="pt-3" style="padding-left: 30px;"> e-mail:
+          <input type="e-mail">
+        </label>
+      </div>
+      <div class="col-12 col-lg-4 col-md-6">
+        <h1 class="fs-4 fw-bold ">Change E-mail</h1>
+        <label class="pt-3">Current E-mail:
+          <input type="email">
+        </label>
+        <label class="pt-3" style="padding-left: 20px;">New E-mail:
+          <input type="email">
+        </label>
+        <label class="pt-3">Confirm E-mail:
+          <input type="e-mail">
+        </label>
+        <div  class="pt-2 pb-2" style="padding-left: 180px;">
+          <button style>submit</button>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4  col-md-6">
+        <h1 class="fs-4 fw-bold "  >Change Password</h1>
+        <label class="pt-3">Current Password:
+          <input type="password">
+        </label>
+        <label class="pt-3" style="padding-left: 20px;">New password: 
+          <input type="password">
+        </label>
+        <label class="pt-3">Confirm password:
+          <input type="password" >
+        </label>
+        <div  class="pt-2 pb-2" style="padding-left: 200px;">
+          <button style>submit</button>
+        </div>
+      </div>
+    </div>
+    </div>
+        </div>
+      </main>
+    
+      <!--footer-->
+   <footer class=" p-2 p-md-3 mt-2 text-white" style="background-color:#01579b ;">
+    <div class="text-center">
+      <a href="#" class="text-decoration-none text-white">Terms</a> |
+      <a href="#" class="text-decoration-none text-white">Conditions</a> |
+      <a href="#" class="text-decoration-none text-white">Privacy Policy</a>
+    </div>
+    <div class="text-center text-white my-2">© Copyrights VoilaCode.</div>
+ </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" async></script>
+  <script src="js/script.js" async></script>
 </body>
 </html>
